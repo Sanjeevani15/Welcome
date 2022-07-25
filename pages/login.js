@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image';
-import intro from '../images/intro.png';
+import intro from '../images/join.png';
 import styles from '../styles/Home.module.css'
 import Link from 'next/link';
 
@@ -21,11 +21,11 @@ export default function Home() {
 
   {/* starting for signup section  */}
  
-	<div class="justify-center bg-white rounded-lg mx-20 my-auto w-4/12">
+	<div class=" bg-slate-100 rounded-lg mx-20 my-auto w-4/12">
 			<h3 class="pt-10 text-4xl text-center font-bold text-blue-800 mb-4">Hey! Welcome Back
             <p class="text-sm text-slate-400 font-normal">Login into you account</p></h3>
 
-						<form class="px-8 pt-2 pb-8 mb-4 bg-white rounded">
+						<form class="px-8 pt-2 pb-8 mb-4 rounded">
            
 
 							
