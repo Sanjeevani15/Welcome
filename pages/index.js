@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image';
 import intro from '../images/intro.png';
 import styles from '../styles/Home.module.css'
-
+import Link from 'next/link';
 export default function Home() {
   return (
     <div class="flex flex-wrap flex-row">
@@ -26,7 +26,7 @@ export default function Home() {
 
 						<form class="px-8 pt-2 pb-8 mb-4 bg-white rounded">
             <div class="grid grid-cols-2 gap-4 my-6">
-								<div class="mr-6">
+								<div class="mr-4">
 									<label class="block mb-2 text-sm font-bold text-gray-700" for="firstName">
 										First Name
 									</label>
@@ -37,7 +37,7 @@ export default function Home() {
 										placeholder="Elon"
 									/>
 								</div>
-								<div class="ml-6">
+								<div class="ml-4">
 									<label class="block mb-2 text-sm font-bold text-gray-700" for="lastName">
 										Last Name
 									</label>
@@ -65,7 +65,7 @@ export default function Home() {
 								/>
 							</div>
 
-							<div class="mb-8">
+							<div>
 								<div class="mb-4">
 									<label class="block mb-2 text-sm font-bold text-gray-700" for="password">
 										Password
@@ -90,6 +90,10 @@ export default function Home() {
 									/>
 								</div>
 							</div>
+              <div class="mb-8"><input type="checkbox" class="checked:bg-blue-500" />
+              <label for="checkbox" class="ml-2 text-xs text-gray-500">By creating an account you agree with our <span class="font-bold text-blue-600">Terms and Conditions</span>.</label>
+              </div>
+              
 							<div class="mb-6 text-center">
 								<button
 									class="w-full px-4 py-2 font-bold text-white bg-blue-500 rounded-full hover:bg-blue-700 focus:outline-none focus:shadow-outline"
@@ -99,21 +103,16 @@ export default function Home() {
 								</button>
 							</div>
 							<hr class="mb-6 border-t" />
+							
 							<div class="text-center">
-								<a
+              <Link href="/login">
+                            <a
 									class="inline-block text-sm text-blue-500 align-baseline hover:text-blue-800"
-									href="#"
-								>
-									Forgot Password?
-								</a>
-							</div>
-							<div class="text-center">
-								<a
-									class="inline-block text-sm text-blue-500 align-baseline hover:text-blue-800"
-									href="./index.html"
+									
 								>
 									Already have an account? Login!
 								</a>
+                                </Link>
 							</div>
 						</form>
 					</div>

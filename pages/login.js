@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image';
 import intro from '../images/intro.png';
 import styles from '../styles/Home.module.css'
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -20,9 +21,9 @@ export default function Home() {
 
   {/* starting for signup section  */}
  
-	<div class="justify-center bg-white rounded-lg mx-20 w-4/12">
-						<h3 class="pt-10 text-4xl text-center font-bold text-blue-800">Let's Get Started
-            <p class="text-sm text-slate-400 font-normal">Create an account to continue</p></h3>
+	<div class="justify-center bg-white rounded-lg mx-20 my-auto w-4/12">
+			<h3 class="pt-10 text-4xl text-center font-bold text-blue-800 mb-4">Hey! Welcome Back
+            <p class="text-sm text-slate-400 font-normal">Login into you account</p></h3>
 
 						<form class="px-8 pt-2 pb-8 mb-4 bg-white rounded">
            
@@ -61,7 +62,7 @@ export default function Home() {
 									class="w-full px-4 py-2 font-bold text-white bg-blue-500 rounded-full hover:bg-blue-700 focus:outline-none focus:shadow-outline"
 									type="button"
 								>
-									Create Account
+									Log In
 								</button>
 							</div>
 							<hr class="mb-6 border-t" />
@@ -74,12 +75,13 @@ export default function Home() {
 								</a>
 							</div>
 							<div class="text-center">
-								<a
-									class="inline-block text-sm text-blue-500 align-baseline hover:text-blue-800"
-									href="./index.html"
-								>
-									Already have an account? Login!
+                           
+                                <Link href="/">
+                <a class="inline-block text-sm text-blue-500 align-baseline hover:text-blue-800">
+									Don't have an account? Sign Up!
 								</a>
+              </Link>
+                                
 							</div>
 						</form>
 					</div>
