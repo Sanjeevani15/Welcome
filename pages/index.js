@@ -76,7 +76,7 @@ export default function Home() {
   {/* starting for signup section  */}
  
 	<div className="justify-center bg-slate-100 rounded-lg mx-20 my-auto w-4/12">
-						<h3 className="pt-10 text-4xl text-center font-bold text-blue-800">Let's Get Started
+						<h3 className="pt-10 text-4xl text-center font-bold text-blue-800">Let&apos; Get Started
             <p className="text-sm text-slate-400 font-normal">Create an account to continue</p></h3>
 
 						<form className="px-8 pt-2 pb-8 mb-4 rounded" method='POST'>
@@ -146,7 +146,7 @@ export default function Home() {
 									{/* <p className="text-xs italic text-red-500">Please choose a password.</p> */}
 								</div>
 								<div>
-									<label className="block mb-2 text-sm font-bold text-gray-700" for="phone">
+									<label className="block mb-2 text-sm font-bold text-gray-700" htmlFor="phone">
 										Phone Number
 									</label>
 									<input
