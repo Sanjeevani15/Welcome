@@ -82,7 +82,7 @@ export default function Home() {
 						<form className="px-8 pt-2 pb-8 mb-4 rounded" method='POST'>
             <div className="grid grid-cols-2 gap-4 my-6">
 								<div className="mr-4">
-									<label className="block mb-2 text-sm font-bold text-gray-700" for="username">
+									<label className="block mb-2 text-sm font-bold text-gray-700" htmlFor="username">
 										User Name
 									</label>
 									<input
@@ -96,7 +96,7 @@ export default function Home() {
 									/>
 								</div>
 								<div className="ml-4">
-									<label className="block mb-2 text-sm font-bold text-gray-700" for="userType">
+									<label className="block mb-2 text-sm font-bold text-gray-700" htmlFor="userType">
 										User Type
 									</label>
 									<input
@@ -115,7 +115,7 @@ export default function Home() {
 
               
 							<div className="mb-4">
-								<label className="block mb-2 text-sm font-bold text-gray-700" for="email">
+								<label className="block mb-2 text-sm font-bold text-gray-700" htmlFor="email">
 									Email
 								</label>
 								<input
@@ -131,7 +131,7 @@ export default function Home() {
 
 							<div>
 								<div className="mb-4">
-									<label className="block mb-2 text-sm font-bold text-gray-700" for="password">
+									<label className="block mb-2 text-sm font-bold text-gray-700" htmlFor="password">
 										Password
 									</label>
 									<input
@@ -161,7 +161,7 @@ export default function Home() {
 								</div>
 							</div>
               <div className="mb-8"><input type="checkbox" className="checked:bg-blue-500" />
-              <label for="checkbox" className="ml-2 text-xs text-gray-500">By creating an account you agree with our <span className="font-bold text-blue-600">Terms and Conditions</span>.</label>
+              <label htmlFor="checkbox" className="ml-2 text-xs text-gray-500">By creating an account you agree with our <span className="font-bold text-blue-600">Terms and Conditions</span>.</label>
               </div>
               
 							<div className="mb-6 text-center">
