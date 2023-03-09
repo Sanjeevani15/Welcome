@@ -33,7 +33,7 @@ export default function Home() {
 
               
 							<div className="mb-4">
-								<label className="block mb-2 text-sm font-bold text-gray-700" for="username">
+								<label className="block mb-2 text-sm font-bold text-gray-700" htmlFor="username">
 									User Name
 								</label>
 								<input
@@ -46,7 +46,7 @@ export default function Home() {
 
 							<div className="mb-8">
 								<div className="mb-4">
-									<label className="block mb-2 text-sm font-bold text-gray-700" for="password">
+									<label className="block mb-2 text-sm font-bold text-gray-700" htmlFor="password">
 										Password
 									</label>
 									<input
@@ -79,7 +79,7 @@ export default function Home() {
                            
                                 <Link href="/">
                 <a className="inline-block text-sm text-blue-500 align-baseline hover:text-blue-800">
-									Don't have an account? Sign Up!
+									Don&apos; have an account? Sign Up!
 								</a>
               </Link>
                                 
